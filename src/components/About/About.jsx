@@ -9,7 +9,7 @@ export const About = () => {
             About
         </h2>
         <div className={styles.content}>
-            <img className={styles.aboutImage} src="/assets/about/aboutImage.png" alt="picture of me"></img>
+            <img className={styles.aboutImage} src="assets/about/aboutImage.png" alt="picture of me"></img>
             <ul className = {styles.aboutItems}>
                 <li className = {styles.aboutItem}>
                     <img src="assets/about/cursorIcon.png" alt="Cursor Icon"></img>
