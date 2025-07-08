@@ -1,0 +1,15 @@
+:root {
+    --color-text: #e8e6df;
+    --color-text-dim: rgba(232, 230, 223, 0.6);
+    --color-primary: #64ac51;
+    --color-secondary: #266d19;
+    --colour-dark: #071f09;
+    --color-bg: #0a2e0f;
+    --color-third: #2b8936;
+    --color-four: #7fd387;
+    --color-accent: #5b9bd1;
+    --color-accent-dim: rgba(91, 155, 209, 0.35);
+ 
+    --font-roboto: "Roboto";
+    --font-mono: ui-monospace, "SF Mono", "Menlo", "Consolas", monospace;
+}

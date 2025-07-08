@@ -1,0 +1,87 @@
+@import "../../vars.css";
+ 
+.container{
+    position: relative;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    z-index: 1;
+    margin-left: 10%;
+    margin-right: 10%;
+    gap: 20px;
+}
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: var(--color-text);
+    z-index: 2;
+}
+.title{
+    font-size: 72px;
+    font-weight: 900;
+    margin-top: 33px;
+    font-family: var(--font-roboto);
+    color: var(--color-text);
+    text-align: center;
+}
+.description{
+    font-size: 30px;
+    font-family: var(--font-roboto);
+    margin-top: 20px;
+    margin-bottom: 52px;
+    text-align: center;
+    color: var(--color-text-dim);
+}
+.contactBtn{
+    text-decoration: none;
+    background: transparent;
+    border: 1.5px solid var(--color-accent);
+    color: var(--color-text);
+    border-radius: 6px;
+    font-size: 22px;
+    font-weight: 500;
+    font-family: var(--font-mono);
+    padding: 14px 28px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+.contactBtn:hover{
+    background-color: var(--color-accent);
+    color: var(--colour-dark);
+}
+ 
+.heroImg{
+    width: 50%;
+    max-width: 400px;
+    z-index: 1;
+ 
+    animation-name: floating;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+ 
+}
+ 
+@keyframes floating {
+    0% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-15px); 
+    }
+    100% {
+        transform: translateY(0);
+    }
+}
+ 
+  @media screen and (max-width: 830px){
+    .container {
+        flex-direction: column-reverse;
+        gap: 5px;
+        margin-top: 70px;
+    }
+    .content{
+        align-items: center;
+    }
+  }

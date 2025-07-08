@@ -1,0 +1,26 @@
+[
+    {
+      "role": "Summer intern",
+      "organisation": "Wilkinson & Co.",
+      "startDate": "May, 2024",
+      "endDate": "August, 2024",
+      "experiences": ["Optimized repetitive data entry processes using excel VBA & Macros", "Worked on 50+ compilation engagements, including investment firms"],
+      "imageSrc": "assets/history/Wilkinson.png"
+    },
+    {
+      "role": "Match Offical",
+      "organisation": "Ontario Soccer",
+      "startDate": "May, 2022",
+      "endDate": "Present",
+      "experiences": ["Officiated soccer matches in Ontario, as a level 6 match official", "Refereed competitons such as OFSAA, DRSL and OPDL"],
+      "imageSrc": "assets/history/OS.png"
+    },
+    {
+      "role": "Computer Engineering & Management",
+      "organisation": "McMaster University",
+      "startDate": "May, 2022",
+      "endDate": "Present",
+      "experiences": ["Received Dean's Honour List in first, second, and third year","Achieved a cummluative GPA of 10, on the 12 point scale (3.8 / 4)"],
+      "imageSrc": "assets/history/mcmaster.png"
+    }
+  ]

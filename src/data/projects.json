@@ -1,0 +1,138 @@
+[
+    {
+      "id": "lidar",
+      "title": "Lidar-Based Spatial Measurement System",
+      "imageSrc": "assets/projects/Lidar/Lidar.png",
+      "description": "Programmed a Microcontroller to take a 3D scan of a room or hallway",
+      "images": [
+        "/react-portfolio/assets/projects/Lidar/Lidar.png",
+        "/react-portfolio/assets/projects/Lidar/Circuit.png"
+      ],
+      "summary": "The Spatial Measurement System is a low-cost, microcontroller-based setup designed to scan and model indoor spaces in 3D. It uses a VL53L1X Time-of-Flight sensor mounted on a stepper motor to capture 360-degree distance data. A push button starts the scan, and data is collected, processed by an MSP432E401Y microcontroller, and transmitted to a PC via UART. A Python script then converts this data into 3D Cartesian coordinates and plots it using Open3D. The system is built using the Keil IDE and programmed in C, providing a practical tool for learning embedded systems, sensing, and 3D data visualization.",
+      "skills": [
+        {
+          "title": "C",
+          "explanation": "Used to write firmware for the MSP432E401Y microcontroller, including motor control, sensor polling via I2C, data packaging, and UART communication logic"
+        },
+        {
+          "title": "Python",
+          "explanation": "Used on the PC to receive raw data over UART, process the distance values, convert them into 3D coordinates, and visualize the scan using Open3D"
+        },
+        {
+          "title": "Keil",
+          "explanation": "Served as the IDE for building, compiling, and debugging the embedded C code that runs on the microcontroller"
+        },
+        {
+          "title": "Logic Design",
+          "explanation": "tilized pin mapping and digital logic to control motor steps, manage I2C communication, and handle user inputs for synchronized system operation."
+        }
+      ],
+      "link": "https://github.com/jamescameron0/Embedded-Spatial-Measurement-System"
+          
+    },
+    {
+    "id": "pathfinder",
+    "title": "Pathfinder for 2D map",
+    "imageSrc": "assets/projects/pathfinder/tracerPath.png",
+    "description": "Designed an automated pathfinder AI to navigate a 2D city map using graph-based pathfinding algorithms.",
+    "images": [
+      "/react-portfolio/assets/projects/pathfinder/tracerPath.png"
+    ],
+    "summary": "This Pathfinder is a Java-based algorithmic solution for navigating a 2D map consisting of roads, intersections, and buildings, similar to that 90s videogames such as GTA 1 or 2. It simulates an automated vehicle seeking the optimal path through the city. The system models the environment as a graph, supporting both weighted and unweighted edges. Key algorithms implemented include Depth-First Search (DFS), Breadth-First Search (BFS) for unweighted graphs, and Dijkstra’s and Bellman-Ford algorithms for weighted pathfinding. This project emphasizes algorithm design, optimization, and simulation for real-time decision making.",
+    "skills": [
+      {
+        "title": "Java",
+        "explanation": "Implemented core AI logic and pathfinding algorithms including graph traversal and optimization methods."
+      },
+      {
+        "title": "Algorithm Design",
+        "explanation": "Applied DFS, BFS, Dijkstra’s, and Bellman-Ford algorithms for efficient path calculation in different graph configurations."
+      }
+    ]
+    },
+    {
+      "id": "pacemaker",
+      "title": "Pacemaker Project",
+      "imageSrc": "assets/projects/pacemaker/board.png",
+      "description": "Designed a biomedical pacemaker device, creating an adaptive UI and backend workflow.",
+      "images": [
+        "/react-portfolio/assets/projects/pacemaker/DCM.png",
+        "/react-portfolio/assets/projects/pacemaker/stateflow.png"
+
+      ],
+      "summary": "The Device Controller-Monitor (DCM) is a desktop interface designed to manage and interact with a pacemaker operating on an FRDM-K64F microcontroller. It allows users to configure the pacemaker using a graphical interface with sliders, dropdowns, and real-time visual feedback like ECG graphs. The DCM supports programming all eight pacing modes including AAO, VVO, AAI, VVI, AOOR, VOOR, AAIR, and VVIR, each with specific sensing and pacing behaviors.\n\nThe control logic was modeled using Simulink and Stateflow to simulate heartbeat conditions and pacing behavior. This simulation framework ensured that the pacemaker’s response matched physiological scenarios and helped test safety-critical conditions like asynchronous pacing, missed beats, and rate adaptation. These models provided an efficient way to debug and verify all pacing modes before deployment.",
+      "skills": [
+        {
+          "title": "Python",
+          "explanation": "Used to build the DCM GUI for configuring pacemaker settings, plotting ECGs, and sending commands to the microcontroller."
+        },
+        {
+          "title": "Simulink",
+          "explanation": "Used for modeling and testing the pacing logic and heart activity in simulation before deployment to hardware."
+        },
+        {
+          "title": "Embedded Systems",
+          "explanation": "Implemented device logic on the FRDM-K64F microcontroller, handling pacing modes, UART communication, and safety constraints."
+        }
+      ],
+        "link": "https://github.com/jamescameron0/pacemakerProject"
+    },
+    {
+      "id": "snake-game",
+      "title": "Snake Game Project",
+      "imageSrc": "assets/projects/snake/cropped.png",
+      "description": "Developed an advanced Snake game, transitioning from C to C++ to leverage Object-Oriented Design and data structures.",
+      "images": [
+        "/react-portfolio/assets/projects/snake/default.png",
+        "/react-portfolio/assets/projects/snake/treasure.png"
+      ],
+      "summary": "This project began as a classic Snake game implemented in C where the player avoids hitting themselves while collecting food. It was later translated into C++ to apply Object-Oriented Design principles, creating modular classes for food generation, object positioning, game mechanics, and player control. New features were added such as Bingo, 1 vs. 1, and Treasure Hunt modes. These leveraged various data structures including linked lists for the snake body, queues for multiplayer input tracking, stacks for food generation, and binary search trees for object positioning. The project highlights clean design, algorithmic thinking, and the application of software development techniques to extend a simple base game.",
+      "skills": [
+        {
+          "title": "C",
+          "explanation": "Built the initial version of the snake game using procedural programming with pointers and arrays."
+        },
+        {
+          "title": "C++",
+          "explanation": "Translated the project into C++ to leverage Object-Oriented Design and modular class structures."
+        },
+        {
+          "title": "OOD",
+          "explanation": "Designed classes for snake movement, food generation, and game mechanics to maintain clean and scalable architecture."
+        },
+        {
+          "title": "Data Structures",
+          "explanation": "Applied linked lists, queues, stacks, and binary search trees to manage gameplay logic, object positions, and new game modes."
+        }
+      ],
+      "link": "https://github.com/jamescameron0/snake-game"
+    },
+    {
+      "id": "4-bit-adder",
+      "title": "4-Bit Adder",
+      "imageSrc": "assets/projects/adder/test1crop.png",
+      "description": "Designed and tested a 4-bit adder across schematic design, Verilog/ModelSim simulation, and physical implementation using SNx4HC ICs.",
+      "images": [
+        "/react-portfolio/assets/projects/adder/schematic.png",
+        "/react-portfolio/assets/projects/adder/verilog.png",
+        "/react-portfolio/assets/projects/adder/fullCircuit.png"
+      ],
+      "summary": "This project involved creating a 4-bit adder through three stages: schematic design in Quartus, Verilog simulation in ModelSim, and physical implementation on a breadboard using SNx4HC series integrated circuits. The process began with building the schematic and verifying functionality with waveform simulations, then moved to writing Verilog code and confirming results in ModelSim, and finally constructing the circuit in hardware with LEDs for outputs and using the AD2 I/O logic feature for inputs. The results across all methods matched, reinforcing both design accuracy and practical circuit-building skills. A run through of the project design and testing can be found through the github Link.",
+      "skills": [
+        {
+          "title": "Quartus",
+          "explanation": "Created and tested schematic designs, including waveform simulation used to verify outputs."
+        },
+        {
+          "title": "Verilog",
+          "explanation": "Wrote Verilog code for the 4-bit adder and simulated it in ModelSim. Created a adder module and used it for the 4 bits."
+        },
+        {
+          "title": "Hardware design",
+          "explanation": "Implemented the design on a breadboard using SNx4HC ICs, testing with AD2 I/O and LEDs."
+        }
+      ],
+      "link": "https://github.com/jamescameron0/AdderCircuit"
+    }
+    
+  ]
