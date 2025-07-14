@@ -1,26 +1,79 @@
 [
     {
-      "title": "Project A",
-      "imageSrc": "assets/projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "id": "lidar",
+      "title": "Lidar-Based Spatial Measurement System",
+      "imageSrc": "assets/projects/Lidar/Lidar.png",
+      "description": "Programmed a Microcontroller to take a 3D scan of a room or hallway",
+      "images": [
+        "/react-portfolio/assets/projects/Lidar/Lidar.png",
+        "/react-portfolio/assets/projects/Lidar/Circuit.png"
+      ],
+      "summary": "The Spatial Measurement System is a low-cost, microcontroller-based setup designed to scan and model indoor spaces in 3D. It uses a VL53L1X Time-of-Flight sensor mounted on a stepper motor to capture 360-degree distance data. A push button starts the scan, and data is collected, processed by an MSP432E401Y microcontroller, and transmitted to a PC via UART. A Python script then converts this data into 3D Cartesian coordinates and plots it using Open3D. The system is built using the Keil IDE and programmed in C, providing a practical tool for learning embedded systems, sensing, and 3D data visualization.",
+      "skills": [
+        {
+          "title": "C",
+          "explanation": "Used to write firmware for the MSP432E401Y microcontroller, including motor control, sensor polling via I2C, data packaging, and UART communication logic"
+        },
+        {
+          "title": "Python",
+          "explanation": "Used on the PC to receive raw data over UART, process the distance values, convert them into 3D coordinates, and visualize the scan using Open3D"
+        },
+        {
+          "title": "Keil",
+          "explanation": "Served as the IDE for building, compiling, and debugging the embedded C code that runs on the microcontroller"
+        },
+        {
+          "title": "Logic Design",
+          "explanation": "tilized pin mapping and digital logic to control motor steps, manage I2C communication, and handle user inputs for synchronized system operation."
+        }
+      ]
+          
     },
     {
-      "title": "Project B",
-      "imageSrc": "assets/projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node", "Sass"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+    "id": "pathfinder",
+    "title": "Pathfinder for 2D map",
+    "imageSrc": "assets/projects/pathfinder/tracerPath.png",
+    "description": "Designed an automated pathfinder AI to navigate a 2D city map using graph-based pathfinding algorithms.",
+    "images": [
+      "/react-portfolio/assets/projects/pathfinder/tracerPath.png"
+    ],
+    "summary": "This Pathfinder is a Java-based algorithmic solution for navigating a 2D map consisting of roads, intersections, and buildings, similar to that 90s videogames such as GTA 1 or 2. It simulates an automated vehicle seeking the optimal path through the city. The system models the environment as a graph, supporting both weighted and unweighted edges. Key algorithms implemented include Depth-First Search (DFS), Breadth-First Search (BFS) for unweighted graphs, and Dijkstra’s and Bellman-Ford algorithms for weighted pathfinding. This project emphasizes algorithm design, optimization, and simulation for real-time decision making.",
+    "skills": [
+      {
+        "title": "Java",
+        "explanation": "Implemented core AI logic and pathfinding algorithms including graph traversal and optimization methods."
+      },
+      {
+        "title": "Algorithm Design",
+        "explanation": "Applied DFS, BFS, Dijkstra’s, and Bellman-Ford algorithms for efficient path calculation in different graph configurations."
+      }
+    ]
     },
     {
-      "title": "Project C",
-      "imageSrc": "assets/projects/project.png",
-      "description": "This is a project made to learn the latest languages by building an app.",
-      "skills": ["React", "Express", "Node"],
-      "demo": "https://www.example.com",
-      "source": "https://www.github.com"
+      "id": "pacemaker",
+      "title": "Pacemaker Project",
+      "imageSrc": "assets/projects/pacemaker/board.png",
+      "description": "Designed a biomedical pacemaker device, creating an adaptive UI and backend workflow.",
+      "images": [
+        "/react-portfolio/assets/projects/pacemaker/DCM.png",
+        "/react-portfolio/assets/projects/pacemaker/stateflow.png"
+
+      ],
+      "summary": "The Device Controller-Monitor (DCM) is a desktop interface designed to manage and interact with a pacemaker operating on an FRDM-K64F microcontroller. It allows users to configure the pacemaker using a graphical interface with sliders, dropdowns, and real-time visual feedback like ECG graphs. The DCM supports programming all eight pacing modes including AAO, VVO, AAI, VVI, AOOR, VOOR, AAIR, and VVIR, each with specific sensing and pacing behaviors.\n\nThe control logic was modeled using Simulink and Stateflow to simulate heartbeat conditions and pacing behavior. This simulation framework ensured that the pacemaker’s response matched physiological scenarios and helped test safety-critical conditions like asynchronous pacing, missed beats, and rate adaptation. These models provided an efficient way to debug and verify all pacing modes before deployment.",
+      "skills": [
+        {
+          "title": "Python",
+          "explanation": "Used to build the DCM GUI for configuring pacemaker settings, plotting ECGs, and sending commands to the microcontroller."
+        },
+        {
+          "title": "Simulink",
+          "explanation": "Used for modeling and testing the pacing logic and heart activity in simulation before deployment to hardware."
+        },
+        {
+          "title": "Embedded Systems",
+          "explanation": "Implemented device logic on the FRDM-K64F microcontroller, handling pacing modes, UART communication, and safety constraints."
+        }
+        
+      ]
     }
   ]

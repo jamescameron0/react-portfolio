@@ -4,16 +4,17 @@
     position: relative;
     display: flex; 
     align-items: center;
-    justify-content: space-between;
-    margin-top: 49px;
+    justify-content: center;
+    margin-top: 100px;
     z-index: 1;
     margin-left: 10%;
     margin-right: 10%;
+    gap: 20px;
 }
 .content {
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
+    align-items: center;
     color: var(--color-text);
     z-index: 2;
 }
@@ -25,11 +26,16 @@
     background: linear-gradient(90deg, rgba(255,255,255,1) 70%, rgba(255,255,255,0) 120%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    text-align: center;
+    
 }
 .description{
     font-size: 30px;
     font-family: var(--font-roboto);
+    margin-top: 20px;
     margin-bottom: 52px;
+    text-align: center;
+    
 }
 .contactBtn{
     text-decoration: none;
@@ -44,6 +50,7 @@
 
 .heroImg{
     width: 50%;
+    max-width: 400px;
     z-index: 1;
 
     animation-name: floating;
@@ -94,7 +101,8 @@
   @media screen and (max-width: 830px){
     .container {
         flex-direction: column-reverse;
-
+        gap: 5px;
+        margin-top: 70px;
     }
     .content{
         align-items: center;

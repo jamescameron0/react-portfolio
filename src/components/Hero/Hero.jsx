@@ -9,7 +9,8 @@ export const Hero = () => {
             Hello, I'm James
         </h1>
         <p className={styles.description}>
-            I am a Computer Engineering and Management Student at McMaster University. Please reach out to me to learn more!
+            I'm a Computer Engineering & Management Student at McMaster University. 
+            Below you'll find some of my interests, experiences, and projects. Feel free to reach out!
         </p>
         <a className={styles.contactBtn} href="mailto:camerj22@mcmaster.ca">Contact Me</a>
     </div>

@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 
 import styles from "./Navbar.module.css";
+import { HashLink } from 'react-router-hash-link';
 
 export const Navbar = () => {
     const [menuOpen, setMenuOpen] = useState(false);
@@ -17,16 +18,16 @@ export const Navbar = () => {
                     <ul className={`${styles.menuItems} ${menuOpen && styles.menuOpen}`}
                     onClick={() => setMenuOpen(false) }>   
                         <li>
-                            <a href="#about">About</a>
+                            <HashLink smooth to="/#about">About</HashLink>
                         </li>
                         <li>
-                            <a href="#experience">Experience</a>
+                            <HashLink smooth to="/#experience">Experience</HashLink>
                         </li>
                         <li>
-                            <a href="#projects">Projects</a>
+                            <HashLink smooth to="/#projects">Projects</HashLink>
                         </li>
                         <li>
-                            <a href="#contact">Contact</a>
+                            <HashLink smooth to="/#contact">Contact</HashLink>
                         </li>
                     </ul>
                 </div>

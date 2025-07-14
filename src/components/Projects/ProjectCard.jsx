@@ -2,9 +2,11 @@ import React from "react";
 
 import styles from "./ProjectCard.module.css";
 
+import { Link } from "react-router-dom";
+
 
 export const ProjectCard = ({
-  project: { title, imageSrc, description, skills, demo, source },
+  project: { id, title, imageSrc, description, skills },
 }) => {
   return (
     <div className={styles.container}>
@@ -15,22 +17,19 @@ export const ProjectCard = ({
       />
       <h3 className={styles.title}>{title}</h3>
       <p className={styles.description}>{description}</p>
-      <ul className={styles.skills}>
-        {skills.map((skill, id) => {
-          return (
-            <li key={id} className={styles.skill}>
-              {skill}
+      <div className={styles.skillsBox}>
+        <ul className={styles.skills}>
+          {skills.map((skill, i) => (
+            <li key={i} className={styles.skill}>
+              {skill.title}
             </li>
-          );
-        })}
-      </ul>
+            ))}
+        </ul>
+      </div>
       <div className={styles.links}>
-        <a href={demo} className={styles.link}>
-          Demo
-        </a>
-        <a href={source} className={styles.link}>
-          Source
-        </a>
+      <Link to={`/projects/${id}`} className={styles.link}>
+        More Info
+      </Link>
       </div>
     </div>
   );

@@ -47,7 +47,7 @@
   }
 
 .skillImageContainer img {
-    width: 75px;
+    width: 65%;
   }
   
 .skill p {
@@ -118,3 +118,20 @@
       gap: 9px;
     }
   }
+  
+
+@keyframes spinOnce {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+  
+.skillImageContainer:hover {
+  animation: spinOnce 0.6s ease-out;
+  background-color: var(--color-four);
+  transform: scale(1.05);
+  box-shadow: 0 0 15px rgba(70, 200, 255, 0.94);
+}
