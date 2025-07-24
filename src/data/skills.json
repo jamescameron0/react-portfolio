@@ -35,5 +35,13 @@
     {
       "title": "React",
       "imageSrc": "assets/skills/react.png"
+    },
+    {
+      "title": "CSS",
+      "imageSrc": "assets/skills/css.png"
+    },
+    {
+      "title": "HTML",
+      "imageSrc": "assets/skills/html.png"
     }
   ]
