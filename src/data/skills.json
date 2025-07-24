@@ -15,26 +15,9 @@
       "title": "Java",
       "imageSrc": "assets/skills/java.png"
     },
-    
-    {
-      "title": "Javascript",
-      "imageSrc": "assets/skills/javascript.png"
-    },
     {
       "title": "Matlab",
       "imageSrc": "assets/skills/matlab.png"
-    },
-    {
-      "title": "Verilog",
-      "imageSrc": "assets/skills/NAND.png"
-    },
-    {
-      "title": "Fusion",
-      "imageSrc": "assets/skills/Fusion.png"
-    },
-    {
-      "title": "React",
-      "imageSrc": "assets/skills/react.png"
     },
     {
       "title": "CSS",
@@ -43,5 +26,21 @@
     {
       "title": "HTML",
       "imageSrc": "assets/skills/html.png"
+    },
+    {
+      "title": "React",
+      "imageSrc": "assets/skills/react.png"
+    },
+    {
+      "title": "Javascript",
+      "imageSrc": "assets/skills/javascript.png"
+    },
+    {
+      "title": "Verilog",
+      "imageSrc": "assets/skills/NAND.png"
+    },
+    {
+      "title": "Fusion",
+      "imageSrc": "assets/skills/Fusion.png"
     }
   ]
