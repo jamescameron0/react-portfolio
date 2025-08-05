@@ -68,8 +68,8 @@
     flex-direction: row;
     align-items: center;
     gap: 17px;
-    background: #19376d;
-    background: linear-gradient(90deg, #19376d 0%, rgba(25, 55, 109, 0) 100%);
+    background: #196d1f;
+    background: linear-gradient(90deg, #196d1f 0%, rgba(25, 109, 35, 0) 100%);
     border-radius: 10px;
     padding: 24px;
   }
@@ -133,5 +133,5 @@
   animation: spinOnce 0.6s ease-out;
   background-color: var(--color-four);
   transform: scale(1.05);
-  box-shadow: 0 0 15px rgba(70, 200, 255, 0.94);
+  box-shadow: 0 0 15px rgba(70, 255, 82, 0.94);
 }
