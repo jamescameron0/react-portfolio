@@ -6,7 +6,7 @@ import styles from "./Experience.module.css"
 export const Experience = () => {
   return (
     <section className={styles.container} id="experience">
-        <h2 className={styles.title}>Experience</h2>
+        <h2 className={styles.title}>Experience / Education </h2>
         <div className={styles.content}>
             <ul className={styles.history}>
             {
@@ -49,3 +49,16 @@ export const Experience = () => {
   );
 }
 
+/*,
+    {
+      "role": "Private swimming instructor",
+      "organisation": "Swim @ your home",
+      "startDate": "June, 2021",
+      "endDate": "August, 2023",
+      "experiences": [
+        "Started a family business teaching private swimming lessons",
+        "Offered lessons to 100+ families over 3 years",
+        "Created forms and spreadsheet to track client info. and cashflow"
+      ],
+      "imageSrc": "assets/history/swim.png"
+    }*/

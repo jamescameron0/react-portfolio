@@ -16,15 +16,11 @@
       "imageSrc": "assets/history/OS.png"
     },
     {
-      "role": "Private swimming instructor",
-      "organisation": "Swim @ your home",
-      "startDate": "June, 2021",
-      "endDate": "August, 2023",
-      "experiences": [
-        "Started a family business teaching private swimming lessons",
-        "Offered lessons to 100+ families over 3 years",
-        "Created forms and spreadsheet to track client info. and cashflow"
-      ],
-      "imageSrc": "assets/history/swim.png"
+      "role": "Computer Engineering & Management",
+      "organisation": "McMaster University",
+      "startDate": "May, 2022",
+      "endDate": "Present",
+      "experiences": ["Received Dean's Honour List in first, second, and third year","Achieved a cummluative GPA of 10, on the 12 point scale (3.8 / 4)"],
+      "imageSrc": "assets/history/mcmaster.png"
     }
   ]
