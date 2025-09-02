@@ -17,6 +17,17 @@ export const ProjectDetails = () => {
       <SimpleNavbar />
       <div className={styles.container}>
         <h1 className={styles.title}>{project.title}</h1>
+        
+        <a 
+          href={project.link} 
+          target="_blank" 
+          rel="noopener noreferrer"
+          className={styles.github}
+        >
+          View this project on GitHub
+        </a>
+  
+
         <div className={styles.imageGallery}>
           {project.images.map((img, i) => (
             <img key={i} src={img} alt="" className={styles.projectImage} />

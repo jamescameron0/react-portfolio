@@ -15,15 +15,16 @@
 
 .title {
   font-size: 50px;
-  margin-bottom: 1.5rem;
+  margin-bottom: 15px;
   text-align: center;
 }
 
 .imageGallery {
   display: flex;
-  gap: 1rem;
+  gap: 10px;
   flex-wrap: wrap;
   margin-bottom: 2rem;
+  margin-top: 20px;
   justify-content: center;
 }
 
@@ -65,4 +66,19 @@
   color: white;
   padding: 2rem;
   font-size: 1.2rem;
+}
+
+.github {
+  margin-top: 0px;
+  font-size: 20px;       
+  color: rgb(23, 128, 221);         
+  text-decoration: none; 
+  display: block;  
+  text-align: center;    
+  
+}
+
+.github:hover {
+  color: rgb(107, 174, 234);           
+  text-decoration: none; 
 }

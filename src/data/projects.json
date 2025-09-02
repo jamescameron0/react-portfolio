@@ -26,7 +26,8 @@
           "title": "Logic Design",
           "explanation": "tilized pin mapping and digital logic to control motor steps, manage I2C communication, and handle user inputs for synchronized system operation."
         }
-      ]
+      ],
+      "link": "https://github.com/jamescameron0/Embedded-Spatial-Measurement-System"
           
     },
     {
@@ -73,7 +74,38 @@
           "title": "Embedded Systems",
           "explanation": "Implemented device logic on the FRDM-K64F microcontroller, handling pacing modes, UART communication, and safety constraints."
         }
-        
-      ]
+      ],
+        "link": "https://github.com/jamescameron0/pacemakerProject"
+    },
+    {
+      "id": "snake-game",
+      "title": "Snake Game Project",
+      "imageSrc": "assets/projects/snake/cropped.png",
+      "description": "Developed an advanced Snake game, transitioning from C to C++ to leverage Object-Oriented Design and data structures.",
+      "images": [
+        "/react-portfolio/assets/projects/snake/default.png",
+        "/react-portfolio/assets/projects/snake/treasure.png"
+      ],
+      "summary": "This project began as a classic Snake game implemented in C where the player avoids hitting themselves while collecting food. It was later translated into C++ to apply Object-Oriented Design principles, creating modular classes for food generation, object positioning, game mechanics, and player control. New features were added such as Bingo, 1 vs. 1, and Treasure Hunt modes. These leveraged various data structures including linked lists for the snake body, queues for multiplayer input tracking, stacks for food generation, and binary search trees for object positioning. The project highlights clean design, algorithmic thinking, and the application of software development techniques to extend a simple base game.",
+      "skills": [
+        {
+          "title": "C",
+          "explanation": "Built the initial version of the snake game using procedural programming with pointers and arrays."
+        },
+        {
+          "title": "C++",
+          "explanation": "Translated the project into C++ to leverage Object-Oriented Design and modular class structures."
+        },
+        {
+          "title": "OOD",
+          "explanation": "Designed classes for snake movement, food generation, and game mechanics to maintain clean and scalable architecture."
+        },
+        {
+          "title": "Data Structures",
+          "explanation": "Applied linked lists, queues, stacks, and binary search trees to manage gameplay logic, object positions, and new game modes."
+        }
+      ],
+      "link": "https://github.com/jamescameron0/snake-game"
     }
+    
   ]
