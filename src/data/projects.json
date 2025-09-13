@@ -106,6 +106,33 @@
         }
       ],
       "link": "https://github.com/jamescameron0/snake-game"
+    },
+    {
+      "id": "4-bit-adder",
+      "title": "4-Bit Adder",
+      "imageSrc": "assets/projects/adder/test1crop.png",
+      "description": "Designed and tested a 4-bit adder across schematic design, Verilog/ModelSim simulation, and physical implementation using SNx4HC ICs.",
+      "images": [
+        "/react-portfolio/assets/projects/adder/schematic.png",
+        "/react-portfolio/assets/projects/adder/verilog.png",
+        "/react-portfolio/assets/projects/adder/fullCircuit.png"
+      ],
+      "summary": "This project involved creating a 4-bit adder through three stages: schematic design in Quartus, Verilog simulation in ModelSim, and physical implementation on a breadboard using SNx4HC series integrated circuits. The process began with building the schematic and verifying functionality with waveform simulations, then moved to writing Verilog code and confirming results in ModelSim, and finally constructing the circuit in hardware with LEDs for outputs and using the AD2 I/O logic feature for inputs. The results across all methods matched, reinforcing both design accuracy and practical circuit-building skills. A run through of the project design and testing can be found through the github Link.",
+      "skills": [
+        {
+          "title": "Quartus",
+          "explanation": "Created and tested schematic designs, including waveform simulation used to verify outputs."
+        },
+        {
+          "title": "Verilog",
+          "explanation": "Wrote Verilog code for the 4-bit adder and simulated it in ModelSim. Created a adder module and used it for the 4 bits."
+        },
+        {
+          "title": "Hardware design",
+          "explanation": "Implemented the design on a breadboard using SNx4HC ICs, testing with AD2 I/O and LEDs."
+        }
+      ],
+      "link": "https://github.com/jamescameron0/AdderCircuit"
     }
     
   ]
