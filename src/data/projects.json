@@ -27,8 +27,37 @@
           "explanation": "tilized pin mapping and digital logic to control motor steps, manage I2C communication, and handle user inputs for synchronized system operation."
         }
       ],
-      "link": "https://github.com/jamescameron0/Embedded-Spatial-Measurement-System"
-          
+      "link": "https://github.com/jamescameron0/Embedded-Spatial-Measurement-System"  
+    },
+    {
+      "id": "image-decompressor",
+      "title": "RTL-Based Image Decompressor",
+      "imageSrc": "assets/projects/image-decompressor/image1.png",
+      "description": "Designed an FPGA-based image decompression pipeline using SystemVerilog on a DE2-115 board.",
+      "images": [
+        "/react-portfolio/assets/projects/image-decompressor/image4.png",
+        "/react-portfolio/assets/projects/image-decompressor/image2_1.png"
+      ],
+      "summary": "Designed and implemented SystemVerilog RTL for an image decompression pipeline on the DE2-115 FPGA. Implemented chroma upsampling and YUV-to-RGB colour-space conversion using pipelined arithmetic, finite-state machines, and external SRAM access. Developed inverse DCT hardware using embedded dual-port RAMs, matrix multiplication, accumulators, and multi-stage FSMs. Designed detailed state and timing tables to coordinate clock-cycle operations, memory reads and writes, register updates, and multiplier usage. Verified the design through simulation, waveform analysis, synthesis, and on-board testing, achieving 92.9% calculated multiplier utilization and meeting timing requirements at a 50 MHz system clock.",
+      "skills": [
+        {
+          "title": "SystemVerilog",
+          "explanation": "Designed RTL modules, finite-state machines, datapaths, registers, and control logic for the image decompression pipeline."
+        },
+        {
+          "title": "Memory Architecture",
+          "explanation": "Designed clock-cycle memory-access schedules for external SRAM and embedded dual-port RAM while coordinating reads, writes, registers, and datapath operations."
+        },
+        {
+          "title": "Hardware Optimization",
+          "explanation": "Reduced register usage by sharing a pixel counter across Y, U, and V memory locations and scheduled overlapping arithmetic operations to achieve 92.9% calculated multiplier utilization."
+        },
+        {
+          "title": "Verification & Timing",
+          "explanation": "Used testbenches, waveform analysis, synthesis reports, and on-board testing to debug addressing and FSM behaviour, achieving a 54.19 MHz Fmax and meeting timing requirements for the 50 MHz system clock."
+        }
+      ],
+      "link": "https://github.com/jamescameron0/Image-Decompressor"
     },
     {
     "id": "pathfinder",
@@ -81,7 +110,7 @@
       "id": "snake-game",
       "title": "Snake Game Project",
       "imageSrc": "assets/projects/snake/cropped.png",
-      "description": "Developed an advanced Snake game, transitioning from C to C++ to leverage Object-Oriented Design and data structures.",
+      "description": "Developed a Snake game, transitioning from C to C++ to leverage Object-Oriented Design and data structures.",
       "images": [
         "/react-portfolio/assets/projects/snake/default.png",
         "/react-portfolio/assets/projects/snake/treasure.png"
@@ -134,5 +163,4 @@
       ],
       "link": "https://github.com/jamescameron0/AdderCircuit"
     }
-    
   ]
