@@ -1,4 +1,34 @@
-[
+  [  
+    {
+      "id": "software-defined-radio",
+      "title": "Software-Defined Radio FM Receiver",
+      "imageSrc": "assets/projects/sdr/cover.png",
+      "description": "Developed components of a real-time software-defined FM radio receiver using C++, Python, RTL-SDR hardware, and a Raspberry Pi 4.",
+      "images": [
+        "/react-portfolio/assets/projects/sdr/chart.png",
+        "/react-portfolio/assets/projects/sdr/benchmark.png"
+      ],
+      "summary": "Developed components of a real-time software-defined FM radio receiver supporting mono audio, stereo audio, and Radio Data System (RDS) output. Refactored validated Python DSP models into modular C++ for real-time execution on a Raspberry Pi 4, using multithreading to execute signal-processing paths concurrently. Implemented and debugged FIR filtering, downsampling, and rational resampling, including optimized polyphase resampling for efficient sample-rate conversion. Contributed to RDS modelling, implementation, and testing, and developed tests and benchmarks to validate DSP blocks and evaluate runtime performance.",
+      "skills": [
+        {
+          "title": "C++",
+          "explanation": "Refactored validated Python DSP models into modular C++ for real-time execution, organizing signal-processing stages into reusable functions and classes."
+        },
+        {
+          "title": "Multithreading",
+          "explanation": "Developed concurrent processing paths to execute DSP workloads in parallel and support real-time FM reception."
+        },
+        {
+          "title": "Digital Signal Processing",
+          "explanation": "Implemented and debugged FIR filtering, downsampling, and rational resampling for real-time FM signal processing."
+        },
+        {
+          "title": "Testing & Benchmarking",
+          "explanation": "Developed tests and benchmarks for mono downsampling and resampling blocks to verify correctness and evaluate runtime performance."
+        }
+      ],
+      "link": "https://github.com/jamescameron0/YOUR-REPO-NAME"
+    },
     {
       "id": "lidar",
       "title": "Lidar-Based Spatial Measurement System",
