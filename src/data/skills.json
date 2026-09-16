@@ -12,32 +12,36 @@
       "imageSrc": "assets/skills/C.png"
     },
     {
-      "title": "Java",
-      "imageSrc": "assets/skills/java.png"
+      "title": "Embedded Systems",
+      "imageSrc": "assets/skills/embeddedSystems.png"
+    },
+    {
+      "title": "DSP",
+      "imageSrc": "assets/skills/DSP.png"
     },
     {
       "title": "Matlab",
       "imageSrc": "assets/skills/matlab.png"
     },
     {
-      "title": "CSS",
-      "imageSrc": "assets/skills/css.png"
+      "title": "systemVerilog",
+      "imageSrc": "assets/skills/systemverilog.png"
     },
     {
-      "title": "HTML",
-      "imageSrc": "assets/skills/html.png"
+      "title": "Jira",
+      "imageSrc": "assets/skills/jira.png"
     },
     {
-      "title": "React",
-      "imageSrc": "assets/skills/react.png"
+      "title": "Git",
+      "imageSrc": "assets/skills/git.png"
     },
     {
-      "title": "Javascript",
-      "imageSrc": "assets/skills/javascript.png"
+      "title": "Linux",
+      "imageSrc": "assets/skills/linux.png"
     },
     {
-      "title": "Verilog",
-      "imageSrc": "assets/skills/NAND.png"
+      "title": "UART & I²C",
+      "imageSrc": "assets/skills/uart&i2c.png"
     },
     {
       "title": "Fusion",
